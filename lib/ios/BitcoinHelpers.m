@@ -5,6 +5,7 @@
 
 //MARK: Startup methods
 RCT_EXTERN_METHOD(getAddress:(NSString *)seed
+                  index:(NSNumber *)index
                   resolve:(RCTPromiseResolveBlock)resolve
                   reject:(RCTPromiseRejectBlock)reject)
 
